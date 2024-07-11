@@ -1,0 +1,66 @@
+{
+  "translation": {
+    "mainScreen": {
+      "navTitle": "Menu",
+      "textWelcome": "Hello Hostaway team 👋🏼",
+      "textAbout": "This sample app showcases some simple functionalities I implemented to give you a better understanding of my skillset. Feel free to look around!",
+      "form": "Form",
+      "list": "List",
+      "language": "Language",
+      "routing": "Auth Routing",
+      "info": "Info"
+    },
+    "formScreen": {
+      "navTitle": "Form",
+      "text": "I use 'react-hook-form' for performant, flexible, and extensible forms, combined with 'yup' for validation. Creating reusable controlled input components ensures consistency and efficiency. Try submitting the form without filling in the inputs to trigger validation errors.",
+      "email": {
+        "label": "Email Address",
+        "required": "Email address is required",
+        "format": "Please enter a valid email address"
+      },
+      "password": {
+        "label": "Password",
+        "required": "Password is required",
+        "matches": "Password should not contain white spaces"
+      },
+      "submit": {
+        "title": "Form Submitted",
+        "text": "Thanks for using the form",
+        "button": "Submit Form"
+      }
+    },
+    "listScreen": {
+      "navTitle": "List",
+      "text": "Implemented infinite scroll lists with data fetching. I find 'react-query' particularly powerful for managing API calls due to its comprehensive feature set and robust caching capabilities. Additionally, leveraging Shopify's 'flashlist' component and 'expo-image' ensures optimal performance. Memoizing card components is crucial for optimizing re-renders and enhancing efficiency.",
+      "empty": "No recipes found.",
+      "refetch": "Refetch"
+    },
+    "languageScreen": {
+      "navTitle": "Language",
+      "text": "Here, you can change the app's language. The change is seamless and reflected across all screens. The selected language is saved in async storage, ensuring the preferred option is used even after the user closes and reopens the app.",
+      "eng": "🇺🇸 English",
+      "slo": "🇸🇮 Slovenian"
+    },
+    "routingScreen": {
+      "navTitle": "Auth Routing",
+      "text": "Most apps need user authentication to access personal or private data. Here's a simple best practice example for navigating to protected screens with a combination of 'react-navigation', 'redux' and 'async-storage'. Typically, I use 'expo-secure-store' for token storage, but for this dummy example, 'async-storage' is sufficient. I would also set the token as a header in the 'axios' instance.",
+      "button": "Fake Sign In"
+    },
+    "infoScreen": {
+      "navTitle": "Info",
+      "text1": "I hope you enjoyed exploring this quick sample app! I made sure to include essential functionalities that are commonly needed in real-life apps within the time I had.",
+      "text2": "If you have any questions about how things work, feel free to ask during the interview. I'd love to chat about it. See ya! 😊"
+    },
+    "protectedScreen": {
+      "navTitle": "Protected",
+      "text": "You are on a protected screen where you can sign out and return to the menu. The authentication status is saved in the device storage, ensuring the correct screen is displayed when the app is closed and reopened.",
+      "button": "Fake Sign Out"
+    },
+    "general": {
+      "error": {
+        "title": "Error 🥲",
+        "text": "An error occured. Please try again."
+      }
+    }
+  }
+}

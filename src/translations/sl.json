@@ -1,0 +1,66 @@
+{
+  "translation": {
+    "mainScreen": {
+      "navTitle": "Meni",
+      "textWelcome": "Živijo Hostaway ekipa 👋🏼",
+      "textAbout": "Ta vzorčna aplikacija prikazuje nekaj preprostih funkcionalnosti, ki sem jih implementiral, da bi vam pomagal bolje razumeti moje sposobnosti.",
+      "form": "Obrazec",
+      "list": "Seznam",
+      "language": "Jezik",
+      "routing": "Auth Navigacija",
+      "info": "Info"
+    },
+    "formScreen": {
+      "navTitle": "Obrazec",
+      "text": "Za upravljanje obrazcev v React Native uporabljam 'react-hook-form'. Omogoča mi implementacijo zmogljivih, prilagodljivih in razširljivih obrazcev z enostavno uporabo validacije. Kombiniram ga z validacijo 'yup'.",
+      "email": {
+        "label": "Email Naslov",
+        "required": "Vpiši email naslov",
+        "format": "Uporabite pravilen format"
+      },
+      "password": {
+        "label": "Geslo",
+        "required": "Vpiši geslo",
+        "matches": "Geslo ne sme vsebovati presledkov"
+      },
+      "submit": {
+        "title": "Obrazec Poslan",
+        "text": "Hvala za uporabo obrazca",
+        "button": "Pošlji Obrazec"
+      }
+    },
+    "listScreen": {
+      "navTitle": "Seznam",
+      "text": "Implementacija seznama s podatki iz strežnika. Obožujem uporabo 'react-query' knjižnice za obdelavo klicev API, saj ponuja rešitve za vse potrebe in odličen mehanizem predpomnjenja. Prav tako uporabljam shopifyjev komponento 'flashlist' in 'expo-image' za najboljšo možno zmogljivost. Memorizacija komponente bistveno prispeva k ponovnemu izrisu.",
+      "empty": "Ni najdenih zadetkov.",
+      "refetch": "Osveži"
+    },
+    "languageScreen": {
+      "navTitle": "Jezik",
+      "text": "Tukaj lahko spremenite jezik aplikacije. Sprememba je brezhibna in se odraža na vseh zaslonih. Izbrani jezik je shranjen v asinhroni shrambi, kar zagotavlja, da se izbrana možnost uporabi tudi po tem, ko uporabnik zapre in znova odpre aplikacijo.",
+      "eng": "🇺🇸 Angleščina",
+      "slo": "🇸🇮 Slovenščina"
+    },
+    "routingScreen": {
+      "navTitle": "Auth Navigacija",
+      "text": "Večina aplikacij potrebuje preverjanje pristnosti uporabnika za dostop do osebnih ali zasebnih podatkov. Tukaj je primer najboljših praks za navigacijo na zaščitene zaslone. Običajno uporabljam expo-secure-store za shranjevanje žetonov, vendar je za ta primer async-storage dovolj",
+      "button": "Prijava"
+    },
+    "infoScreen": {
+      "navTitle": "Info",
+      "text1": "Upam, da ste uživali pri raziskovanju te hitre vzorčne aplikacije! Poskrbel sem, da sem vključil bistvene funkcionalnosti, ki so običajno potrebne v resničnih aplikacijah, v času, ki sem ga imel na voljo.",
+      "text2": "Če imate kakršna koli vprašanja o tem, kako stvari delujejo, se lahko med intervjujem prosto obrnete name. Z veseljem se pogovorim o tem. Se vidimo! 😊"
+    },
+    "protectedScreen": {
+      "navTitle": "Zaščiteno",
+      "text": "Nahajate se na zaščitenem zaslonu, kjer se lahko odjavite in vrnete v meni. Status preverjanja pristnosti je shranjen v shrambi naprave, kar zagotavlja pravilen prikaz zaslona ob ponovnem zagonu aplikacije.",
+      "button": "Odjava"
+    },
+    "general": {
+      "error": {
+        "title": "Napaka 🥲",
+        "text": "Prišlo je do napake. Poskusite še enkrat."
+      }
+    }
+  }
+}
